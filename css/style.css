@@ -1,0 +1,395 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  /* скидаємо відступи верхній та нижній */
+}
+
+/* прибрали крапки */
+ul,
+ol {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+/* прибрали нижнє підкреслення */
+a {
+  text-decoration: none;
+}
+/* Щоб змінювався курсор при наведені на кнопку */
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #fff;
+  color: #434455;
+}
+
+/* Стилі для Header */
+
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+}
+
+.menu-item-link {
+  display: flex;
+  gap: 40px;
+}
+
+.first-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-right: 76px;
+}
+/* ===================== */
+.item-name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  padding: 24px 0;
+  display: block;
+}
+
+.menu-item-studio .item-name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+/* .menu-item-s:hover,
+.menu-item-s:focus {
+  color: #404bbf;
+} */
+
+.menu-item-studio .item-name:hover,
+.menu-item-studio .item-name:focus {
+  color: #404bbf;
+}
+
+/* .menu-item-studio:hover,
+.menu-item-studio:focus {
+  color: #404bbf;
+} */
+/* ------------------ */
+.menu-item:hover {
+  color: #404bbf;
+}
+
+.menu-item .menu-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  font-style: normal;
+}
+
+.page-adress {
+  text-transform: inherit;
+  font-style: normal;
+  margin-left: auto;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
+
+/* Cтиль для HERO */
+
+.hero {
+  background-color: #2e2f42;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #2e2f42;
+}
+.hero-container {
+  padding-top: 188px;
+  padding-bottom: 292px;
+  padding-left: 331px;
+  padding-right: 331px;
+}
+.hero-content-wrapper{
+  display: flex;
+/* padding-left: 495px;
+padding-right: 495px; */
+align-items: center;
+}
+
+.hero-name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  padding-left: 32px;
+  padding-right: 32px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 48px;
+}
+
+.order-button {
+  min-width: 169px;
+height: 56px;
+border-radius: 4px;
+bottom: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  background-color: #4d5ae5;
+}
+
+.order-button:hover,
+.order-button:focus {
+  background-color: #404bbf;
+}
+
+/* Our benefits */
+
+.benefits{
+  margin-top: 120px;
+  margin-bottom: 120px;
+  margin-left: 156px;
+  margin-right: 156px;
+}
+
+.benefits-ls{
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.benefits-name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.benefits-ds {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* OUR TEAM */
+
+.team-ls{
+  display: flex;
+  align-items: center;
+  margin-bottom: 120px;
+  gap: 24px;
+ 
+}
+
+.page-our-team {
+  background-color: #f4f4fd;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  margin-bottom: 120px;
+  margin-top: 120px;
+}
+
+.team-ls .our-team-ls {
+  background-color: #fff;
+  border-radius: 0 0 4px 4px;
+padding: 0px 0px 32px 0px;
+/* width: 264px;
+height: 380px; */
+}
+
+.our-team {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+  margin-top: 120px;
+  margin-bottom: 72px;
+}
+
+.team-name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  padding-top: 32px;
+  padding-bottom: 8px;
+}
+
+.team-ds {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #434455;
+}
+
+/* Our Portfolio */
+
+.page-portfolio{
+  margin-top: 120px;
+  margin-bottom: 120px;
+
+}
+
+.li1{
+  display: flex;
+  align-self: center;
+  gap: 24px;
+  margin-bottom: 48px;
+}
+
+.li2{
+  margin-top: 48px;
+  display: flex;
+  align-self: center;
+  gap:24px;
+}
+
+.our-portfolio {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+  padding-bottom: 72px;
+}
+
+.portfolio-name {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  padding-top: 32px;
+  padding-bottom: 8px;
+}
+
+.portfolio-ds {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* FOOTER */
+.lower-page {
+  background-color: #2e2f42;
+  width: 1440px;
+height: 312px;
+}
+
+.lower-page-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+.second-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+
+.second-lg {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  
+}
+
