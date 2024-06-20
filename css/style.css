@@ -216,31 +216,45 @@ bottom: none;
 }
 
 /* Our benefits */
-
-.benefits{
-  /* margin-top: 120px;
-  margin-bottom: 120px; */
+.benefits {
   margin-left: 156px;
   margin-right: 156px;
   padding: 120px 0;
 }
 
-.benefits-ls-s{
-  display: flex;
-  align-items: center;
-  gap: 24px;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
 
+.benefits-ls {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.benefits-item {
+  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .benefits-name {
+  margin-bottom: 8px
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px;
- 
 }
 
 .benefits-ds {
