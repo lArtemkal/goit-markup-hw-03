@@ -225,10 +225,11 @@ bottom: none;
   padding: 120px 0;
 }
 
-.benefits-ls{
+.benefits-ls-s{
   display: flex;
   align-items: center;
   gap: 24px;
+
 }
 
 .benefits-name {
@@ -238,6 +239,7 @@ bottom: none;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
  
 }
 
