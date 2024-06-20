@@ -40,10 +40,6 @@ img {
 
 
 
-.header-container {
-  display: flex;
-  align-items: center;
-}
 
 body {
   font-family: "Roboto", sans-serif;
@@ -52,6 +48,11 @@ body {
 }
 
 /* Стилі для Header */
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
 
 .page-header {
   border-bottom: 1px solid #e7e9fc;
