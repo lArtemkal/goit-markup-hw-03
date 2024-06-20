@@ -161,13 +161,13 @@ body {
   margin-left: auto;
   margin-right: auto;
   background: #2e2f42;
-  padding: 188px 0;
+  
 }
 .hero-container {
-  /* padding-top: 188px;
+  padding-top: 188px;
   padding-bottom: 292px;
   padding-left: 331px;
-  padding-right: 331px; */
+  padding-right: 331px;
 }
 .hero-content-wrapper{
   display: flex;
