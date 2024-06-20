@@ -186,9 +186,10 @@ align-items: center;
   text-align: center;
   color: #fff;
   margin-bottom: 48px;
+  max-width: 496px;
 }
 
-.order-button {
+.order-button-s {
   min-width: 169px;
 height: 56px;
 border-radius: 4px;
@@ -200,10 +201,11 @@ bottom: none;
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
+  display: block;
 }
 
-.order-button:hover,
-.order-button:focus {
+.order-button-s:hover,
+.order-button-s:focus {
   background-color: #404bbf;
 }
 
@@ -229,6 +231,7 @@ bottom: none;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+ 
 }
 
 .benefits-ds {
