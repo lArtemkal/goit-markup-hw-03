@@ -37,8 +37,6 @@ img {
   margin: 0 auto;
 }
 
-
-
 .header-container {
   display: flex;
   align-items: center;
@@ -91,7 +89,7 @@ body {
   color: #4d5ae5;
   margin-right: 76px;
 }
-/* ===================== */
+
 .item-name {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -112,113 +110,46 @@ body {
   color: #2e2f42;
 }
 
-/* .menu-item-s:hover,
-.menu-item-s:focus {
-  color: #404bbf;
-} */
-
 .menu-item-studio .item-name:hover,
 .menu-item-studio .item-name:focus {
   color: #404bbf;
 }
 
-/* .menu-item-studio:hover,
-.menu-item-studio:focus {
+.menu-item-portfolio .item-name:hover,
+.menu-item-portfolio .item-name:focus,
+.menu-item-contacts .item-name:hover,
+.menu-item-contacts .item-name:focus {
   color: #404bbf;
-} */
-/* ------------------ */
+}
+
 .menu-item:hover {
   color: #404bbf;
 }
 
-.menu-item .menu-link {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  font-style: normal;
-}
-
-.page-adress {
-  text-transform: inherit;
-  font-style: normal;
-  margin-left: auto;
-}
-
-.menu-link:hover,
-.menu-link:focus {
-  color: #404bbf;
-}
-
-/* Cтиль для HERO */
-
+/* Стилі для Hero */
 .hero {
-  background-color: #2e2f42;
-  max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
-  background: #2e2f42;
+  padding: 188px 0;
 }
+
 .hero-container {
-  padding-top: 188px;
-  padding-bottom: 292px;
-  padding-left: 331px;
-  padding-right: 331px;
-}
-.hero-content-wrapper{
   display: flex;
-/* padding-left: 495px;
-padding-right: 495px; */
-align-items: center;
+  justify-content: center;
 }
 
-.hero-name {
-  font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-size: 56px;
-  padding-left: 32px;
-  padding-right: 32px;
-  line-height: 1.07;
-  letter-spacing: 0.02em;
+.hero-content-wrapper {
   text-align: center;
-  color: #fff;
-  margin-bottom: 48px;
 }
 
-.order-button {
-  min-width: 169px;
-height: 56px;
-border-radius: 4px;
-bottom: none;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #fff;
-  background-color: #4d5ae5;
+/* Стилі для Benefits */
+
+.benefits {
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
-.order-button:hover,
-.order-button:focus {
-  background-color: #404bbf;
-}
-
-/* Our benefits */
-
-.benefits{
-  margin-top: 120px;
-  margin-bottom: 120px;
-  margin-left: 156px;
-  margin-right: 156px;
-}
-
-.benefits-ls{
+.benefits-ls {
   display: flex;
-  align-items: center;
-  gap: 24px;
+  justify-content: space-around;
 }
 
 .benefits-name {
@@ -227,7 +158,10 @@ bottom: none;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
   color: #2e2f42;
+  margin-top: 24px;
+  margin-bottom: 8px;
 }
 
 .benefits-ds {
@@ -236,35 +170,15 @@ bottom: none;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  text-align: center;
   color: #434455;
 }
 
-/* OUR TEAM */
-
-.team-ls{
-  display: flex;
-  align-items: center;
-  margin-bottom: 120px;
-  gap: 24px;
- 
-}
+/* Стилі для Our Team */
 
 .page-our-team {
-  background-color: #f4f4fd;
-  max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  margin-bottom: 120px;
-  margin-top: 120px;
-}
-
-.team-ls .our-team-ls {
-  background-color: #fff;
-  border-radius: 0 0 4px 4px;
-padding: 0px 0px 32px 0px;
-/* width: 264px;
-height: 380px; */
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .our-team {
@@ -275,9 +189,12 @@ height: 380px; */
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  text-transform: capitalize;
-  margin-top: 120px;
-  margin-bottom: 72px;
+  margin-bottom: 60px;
+}
+
+.team-ls {
+  display: flex;
+  justify-content: space-around;
 }
 
 .team-name {
@@ -288,8 +205,8 @@ height: 380px; */
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding-top: 32px;
-  padding-bottom: 8px;
+  margin-top: 24px;
+  margin-bottom: 8px;
 }
 
 .team-ds {
@@ -302,26 +219,21 @@ height: 380px; */
   color: #434455;
 }
 
-/* Our Portfolio */
+/* Стилі для Our Portfolio */
 
-.page-portfolio{
-  margin-top: 120px;
+.page-portfolio {
+  display: flex;
+  align-items: center;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.portfolio-ls {
+  display: flex;
+  flex-wrap: wrap;
   margin-bottom: 120px;
-
-}
-
-.li1{
-  display: flex;
-  align-self: center;
   gap: 24px;
-  margin-bottom: 48px;
-}
-
-.li2{
-  margin-top: 48px;
-  display: flex;
-  align-self: center;
-  gap:24px;
 }
 
 .our-portfolio {
@@ -332,8 +244,8 @@ height: 380px; */
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 60px;
+  margin-top: 120px;
 }
 
 .portfolio-name {
@@ -343,8 +255,8 @@ height: 380px; */
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-top: 32px;
-  padding-bottom: 8px;
+  margin-top: 24px;
+  margin-bottom: 8px;
 }
 
 .portfolio-ds {
@@ -356,20 +268,24 @@ height: 380px; */
   color: #434455;
 }
 
-/* FOOTER */
-.lower-page {
-  background-color: #2e2f42;
-  width: 1440px;
-height: 312px;
+.li1 {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.lower-page-text {
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #f4f4fd;
+.li2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Стилі для Footer */
+
+.lower-page {
+  background-color: #2e2f42;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .second-logo {
@@ -379,7 +295,10 @@ height: 312px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
 }
 
 .second-lg {
@@ -390,6 +309,37 @@ height: 312px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  
 }
 
+.lower-page-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Стилі для Button */
+
+.order-btn {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: var(--btn-bg-color, #4d5ae5);
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin: 0 auto;
+}
