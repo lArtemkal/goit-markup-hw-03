@@ -231,7 +231,6 @@ bottom: none;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
-  margin-bottom: 8px;
 }
 
 .benefits-ls {
@@ -246,10 +245,11 @@ bottom: none;
 .benefits-item {
   width: calc((100% - 72px) / 4);
   flex-basis: calc((100% - 72px) / 4);
+  
 }
 
 .benefits-name {
-  margin-bottom: 8px
+  margin-bottom: 8px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
