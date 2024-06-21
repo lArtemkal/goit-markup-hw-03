@@ -217,19 +217,18 @@ padding-right: 495px; */
   padding: 120px 0;
 }
 
- .visually-hidden:hover {
-  visibility: visible;
-}
- /* {
-  overflow: hidden;
+ .visually-hidden
+ {
+  display: block;
   position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
   width: 1px;
   height: 1px;
-  padding: 0;
   margin: -1px;
-  clip: rect(0, 0, 0, 0);
+  padding: 0;
   border: 0;
-} */
+}
 
 .benefits-ls {
   display: flex;
