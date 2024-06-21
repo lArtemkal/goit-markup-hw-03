@@ -330,11 +330,18 @@ height: 380px; */
 /* Our Portfolio */
 
 .page-portfolio {
-  margin-top: 120px;
-  margin-bottom: 120px;
+  padding: 120px 0;
 }
 
-.li1 {
+.portfolio-ls{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  /* width: calc((100% - 48px) / 3); */
+}
+
+/* .li1 {
   display: flex;
   align-self: center;
   gap: 24px;
@@ -346,7 +353,7 @@ height: 380px; */
   display: flex;
   align-self: center;
   gap: 24px;
-}
+} */
 
 .our-portfolio {
   font-family: "Roboto", sans-serif;
@@ -357,7 +364,7 @@ height: 380px; */
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .portfolio-name {
