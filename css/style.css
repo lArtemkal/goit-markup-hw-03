@@ -398,6 +398,7 @@ height: 380px; */
   background-color: #2e2f42;
   width: 1440px;
   height: 312px;
+  padding: 100px 0;
 }
 
 .lower-page-text {
@@ -427,4 +428,6 @@ height: 380px; */
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
