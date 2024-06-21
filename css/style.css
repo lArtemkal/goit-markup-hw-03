@@ -19,8 +19,7 @@ ol {
   padding-left: 0;
 }
 /* прибрали нижнє підкреслення */
-da 
-a {
+da a {
   text-decoration: none;
 }
 /* Щоб змінювався курсор при наведені на кнопку */
@@ -37,8 +36,6 @@ img {
   padding: 0 15px;
   margin: 0 auto;
 }
-
-
 
 .header-container {
   display: flex;
@@ -164,7 +161,6 @@ body {
   padding: 188px 0;
   align-items: center;
   display: flex;
-  
 }
 /* .hero-container {
   padding-top: 188px;
@@ -172,11 +168,11 @@ body {
   padding-left: 331px;
   padding-right: 331px;
 } */
-.hero-content-wrapper{
+.hero-content-wrapper {
   display: flex;
-/* padding-left: 495px;
+  /* padding-left: 495px;
 padding-right: 495px; */
-align-items: center;
+  align-items: center;
 }
 
 .hero-name {
@@ -196,9 +192,9 @@ align-items: center;
 .order-button-s {
   border: none;
   min-width: 169px;
-height: 56px;
-border-radius: 4px;
-bottom: none;
+  height: 56px;
+  border-radius: 4px;
+  bottom: none;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -207,7 +203,6 @@ bottom: none;
   color: #fff;
   background-color: #4d5ae5;
   display: block;
-  
 }
 
 .order-button-s:hover,
@@ -230,7 +225,7 @@ bottom: none;
   padding: 0;
   margin: -1px;
   clip: rect(0, 0, 0, 0);
-  border: 0; 
+  border: 0;
 }
 
 .benefits-ls {
@@ -245,7 +240,6 @@ bottom: none;
 .benefits-item {
   width: calc((100% - 72px) / 4);
   flex-basis: calc((100% - 72px) / 4);
-  
 }
 
 .benefits-name {
@@ -269,12 +263,12 @@ bottom: none;
 
 /* OUR TEAM */
 
-.team-ls{
+
+.team-ls {
   display: flex;
   align-items: center;
   margin-bottom: 120px;
   gap: 24px;
- 
 }
 
 .page-our-team {
@@ -283,15 +277,15 @@ bottom: none;
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  margin-bottom: 120px;
-  margin-top: 120px;
+  padding: 120px 0;
+  max-height: 732px;
 }
 
 .team-ls .our-team-ls {
   background-color: #fff;
   border-radius: 0 0 4px 4px;
-padding: 0px 0px 32px 0px;
-/* width: 264px;
+  padding: 0px 0px 32px 0px;
+  /* width: 264px;
 height: 380px; */
 }
 
@@ -304,8 +298,12 @@ height: 380px; */
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
-  margin-top: 120px;
+  /* margin-top: 120px; */
   margin-bottom: 72px;
+}
+
+.team-info{
+  padding: 32px 0;
 }
 
 .team-name {
@@ -316,7 +314,6 @@ height: 380px; */
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding-top: 32px;
   padding-bottom: 8px;
 }
 
@@ -332,24 +329,23 @@ height: 380px; */
 
 /* Our Portfolio */
 
-.page-portfolio{
+.page-portfolio {
   margin-top: 120px;
   margin-bottom: 120px;
-
 }
 
-.li1{
+.li1 {
   display: flex;
   align-self: center;
   gap: 24px;
   margin-bottom: 48px;
 }
 
-.li2{
+.li2 {
   margin-top: 48px;
   display: flex;
   align-self: center;
-  gap:24px;
+  gap: 24px;
 }
 
 .our-portfolio {
@@ -388,7 +384,7 @@ height: 380px; */
 .lower-page {
   background-color: #2e2f42;
   width: 1440px;
-height: 312px;
+  height: 312px;
 }
 
 .lower-page-text {
@@ -418,6 +414,4 @@ height: 312px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  
 }
-
