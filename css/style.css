@@ -217,7 +217,7 @@ padding-right: 495px; */
   padding: 120px 0;
 }
 
-.visually-hidden {
+.container .visually-hidden {
   overflow: hidden;
   position: absolute;
   width: 1px;
